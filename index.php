@@ -180,18 +180,20 @@
     </div>
 
     <footer class="footer">
-        <div class="footer__logo">
-            <img src="./assets/imgs/logo-udea-portal.png" class="footer--logoUdea" alt="">
-        </div>
         <div class="footer__info">
-            <img src="./assets/imgs/footer-logo.png" alt="" class="footer--logoUdearroba">
+            <div class="footer--logoUdearroba">
+                <img src="./assets/imgs/footer-logo.png" alt="" class="footer__logo">
+            </div>            
             <p class="footer__text" style="line-height : 27px; ">
                 Contacto: serviciosude@udea.edu.co
-                <br>Calle 67 #53-108 - Bloque 22, oficina 226
-                <br>Medellín (Antioquia) - Colombia
+                <br>Calle 67 #53-108 - Bloque 22, oficina 226 Medellín (Antioquia) - Colombia
                 <br>+57 (4) 219 8111
             </p>
         </div>
+        <div class=" footer--logoUdea">
+            <img src="./assets/imgs/logo-udea-portal.png" class="footer__logo" alt="">
+        </div>
+        
     </footer>
 
 

@@ -1,0 +1,4 @@
+Botones mas pequeños y al centro
+Imagen al tamaño original
+Separar mas los títulos
+Menos lineas de footer
