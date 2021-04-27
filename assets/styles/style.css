@@ -169,7 +169,7 @@ body * {
 .contenido {
     max-width: 1300px;
     width: 98%;
-    margin: 1em auto;
+    margin: 1em auto 2em auto;
 }
 
 .contenido__titulo {
@@ -181,7 +181,7 @@ body * {
 .contenedor-video {
     max-width: 1100px;
     width: 100%;
-    margin: 2em auto 1em auto;
+    margin: 2.5em auto 0 auto;
 }
 
 .video {
@@ -207,9 +207,9 @@ body * {
     width: 100%;
     margin: auto;
     overflow-x: hidden;
+    /* display: flex; */
     white-space: nowrap;
     position: relative;
-    border-radius: 16px;
 }
 
 .carrusel__slide {
@@ -222,6 +222,7 @@ body * {
 .carrusel__tituloSlide {
     text-align: center;
     margin: 1.5em 0 0 0;
+    display: none;
 }
 
 .carrusel__flechaIzquierda,
@@ -247,14 +248,27 @@ body * {
 .carrusel__flechaIzquierda svg,
 .carrusel__flechaDerecha svg {
     color: #007a78;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     filter: drop-shadow(0px 0px 2px black);
+    animation: zoomAnimation 2s infinite;
 }
 
 .carrusel__flechaIzquierda:hover,
 .carrusel__flechaDerecha:hover {
     transform: translateY(-50%) scale(1.2);
+}
+
+@keyframes zoomAnimation {
+    from {
+        transform: translateY(-50%) scale(1);
+    }
+    66% {
+        transform: translateY(-50%) scale(1.2);
+    }
+    to {
+        transform: translateY(-50%) scale(1);
+    }
 }
 
 
@@ -271,7 +285,7 @@ body * {
 
 .footer--logoUdea {
     display: block;
-    max-width: 300px;
+    max-width: 250px;
     width: 100%;
 }
 
@@ -285,7 +299,7 @@ body * {
 }
 
 .footer--logoUdearroba {
-    max-width: 140px;
+    max-width: 120px;
     margin-right: 10px;
     width: 100%;
 }

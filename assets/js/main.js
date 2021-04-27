@@ -2,7 +2,6 @@ let carruseles = new Map();
 
 window.onload = function() {
     inicializarColapsable();
-    console.log("hola")
 
     inicializarCarrusel();
     agregarEventoFlechas();
