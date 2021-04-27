@@ -27,7 +27,7 @@
                 </svg>
             </label>
 
-            <ul class="navbar__menu">
+            <ul class="navbar__menu" id="menu-principal">
                 <li class="abrirColapsable activo" onclick="stopVideos()" data-contenidoid="compromisosRecomendaciones">
                     Compromisos y recomendaciones</li>
                 <li class="abrirColapsable" onclick="stopVideos()" data-contenidoid="editoPerfil">Edito el perfil</li>

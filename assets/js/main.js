@@ -5,6 +5,8 @@ window.onload = function() {
 
     inicializarCarrusel();
     agregarEventoFlechas();
+
+    closeMenu();
 }
 
 // Manejador de pestañas
@@ -41,6 +43,14 @@ function cerrarContenido() {
     for (let elemento of Array.from(elementosActivos)) {
         elemento.classList.remove("activo");
     }
+}
+
+function closeMenu() {
+    let menu = document.getElementById("menu-principal");
+    menu.addEventListener("click", function() {
+        let checkMenu = document.getElementById("navbar__checkbox");
+        checkMenu.checked = 0;
+    });
 }
 
 // Carrusel
