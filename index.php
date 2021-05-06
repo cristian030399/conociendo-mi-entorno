@@ -12,7 +12,7 @@
 <body>
     <div class="contenedor">
         <header class="cabezote">
-            <img src="./assets/imgs/cabezote.png" alt="Cabezote" class="cabezote__img">
+            <img src="./assets/imgs/Banner Ude@Mesa de trabajo 1.png" alt="Cabezote" class="cabezote__img">
         </header>
 
         <nav class="navbar">
@@ -183,7 +183,7 @@
         <div class="footer__info">
             <div class="footer--logoUdearroba">
                 <img src="./assets/imgs/footer-logo.png" alt="" class="footer__logo">
-            </div>            
+            </div>
             <p class="footer__text" style="line-height : 27px; ">
                 Contacto: serviciosude@udea.edu.co
                 <br>Calle 67 #53-108 - Bloque 22, oficina 226 Medellín (Antioquia) - Colombia
@@ -193,7 +193,7 @@
         <div class=" footer--logoUdea">
             <img src="./assets/imgs/logo-udea-portal.png" class="footer__logo" alt="">
         </div>
-        
+
     </footer>
 
 
