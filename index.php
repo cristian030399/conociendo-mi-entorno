@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="theme-color" content="#6bdbba">
+    <title>Conociendo mi entorno</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 
 <body>
-    <div class="contenedor">
+    <div id="root">
         <header class="cabezote">
             <img src="./assets/imgs/Banner Ude@Mesa de trabajo 1.png" alt="Cabezote" class="cabezote__img">
         </header>
@@ -153,24 +154,25 @@
                 </div>
             </section>
         </div>
+
+        <footer class="footer">
+            <div class="footer__info">
+                <div class="footer--logoUdearroba">
+                    <img src="./assets/imgs/footer-logo.png" alt="" class="footer__logo">
+                </div>
+                <p class="footer__text" style="line-height : 27px; ">
+                    Contacto: serviciosude@udea.edu.co
+                    <br>Calle 67 #53-108 - Bloque 22, oficina 226 Medellín (Antioquia) - Colombia
+                    <br>+57 (4) 219 8111
+                </p>
+            </div>
+            <div class=" footer--logoUdea">
+                <img src="./assets/imgs/logo-udea-portal.png" class="footer__logo" alt="">
+            </div>
+        </footer>
     </div>
 
-    <footer class="footer">
-        <div class="footer__info">
-            <div class="footer--logoUdearroba">
-                <img src="./assets/imgs/footer-logo.png" alt="" class="footer__logo">
-            </div>
-            <p class="footer__text" style="line-height : 27px; ">
-                Contacto: serviciosude@udea.edu.co
-                <br>Calle 67 #53-108 - Bloque 22, oficina 226 Medellín (Antioquia) - Colombia
-                <br>+57 (4) 219 8111
-            </p>
-        </div>
-        <div class=" footer--logoUdea">
-            <img src="./assets/imgs/logo-udea-portal.png" class="footer__logo" alt="">
-        </div>
 
-    </footer>
 
 
     <script src="https://www.youtube.com/iframe_api "></script>
