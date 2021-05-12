@@ -16,7 +16,6 @@
         </header>
 
         <nav class="navbar">
-            <h1 class="navbar__titulo">Conociendo mi entorno</h1>
 
             <input type="checkbox" name="navbar__checkbox" id="navbar__checkbox">
             <label for="navbar__checkbox" class="navbar__menuTriger">
@@ -28,23 +27,21 @@
             </label>
 
             <ul class="navbar__menu" id="menu-principal">
-                <li class="abrirColapsable activo" onclick="stopVideos()" data-contenidoid="compromisosRecomendaciones">
+                <li class="abrirColapsable activo" onclick="stopVideos()" data-contenidoid="compromisosRecomendaciones" data-section-name="Compromisos y recomendaciones">
                     Compromisos y recomendaciones</li>
-                <li class="abrirColapsable" onclick="stopVideos()" data-contenidoid="editoPerfil">Edito el perfil</li>
-                <li class="abrirColapsable" onclick="stopVideos()" data-contenidoid="actividades">Mis actividades</li>
-                <li class="abrirColapsable" onclick="stopVideos()" data-contenidoid="tutoriasVirtuales">Participo en tutorías virtuales</li>
+                <li class="abrirColapsable" onclick="stopVideos()" data-contenidoid="editoPerfil" data-section-name="Edito el perfil">Edito el perfil</li>
+                <li class="abrirColapsable" onclick="stopVideos()" data-contenidoid="actividades" data-section-name="Mis actividades">Mis actividades</li>
+                <li class="abrirColapsable" onclick="stopVideos()" data-contenidoid="tutoriasVirtuales" data-section-name="Participo en tutorías virtuales">Participo en tutorías virtuales</li>
             </ul>
+
+            <h1 class="navbar__titulo" id="navbar__titulo">Compromisos y recomendaciones</h1>
         </nav>
 
         <div class="contenido">
             <section id="compromisosRecomendaciones" class="colapsable activo">
-                <h1 class="contenido__titulo">Compromisos y recomendaciones</h1>
 
                 <div class="carrusel" id="carrusel1">
                     <div class="carrusel__slide">
-                        <h2 class="carrusel__tituloSlide">
-                            Compromisos para estudiar <br> en la virtualidad
-                        </h2>
 
                         <div class="contenedor-video">
                             <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/6005a9bc5115740ce72fc144" type="text/html" allowscriptaccess="always"
@@ -52,9 +49,6 @@
                         </div>
                     </div>
                     <div class="carrusel__slide">
-                        <!-- <h2 class="carrusel__tituloSlide">
-                            Recomendaciones para estudiar <br> en la virtualidad
-                        </h2> -->
 
                         <div class="contenedor-video">
                             <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1920px" height="1080px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5cc34411db97e30f5d500203" type="text/html" allowscriptaccess="always"
@@ -82,7 +76,6 @@
             </section>
 
             <section id="editoPerfil" class="colapsable">
-                <h1 class="contenido__titulo">¿Cómo editar el perfil en la plataforma educativa de Ude@?</h1>
 
                 <div class="contenedor-video">
                     <div class="video">
@@ -92,13 +85,9 @@
             </section>
 
             <section id="actividades" class="colapsable">
-                <h1 class="contenido__titulo">Mis actividades</h1>
                 <div class="carrusel" id="carrusel2">
                     <!-- Slide -->
                     <div class="carrusel__slide">
-                        <h2 class="carrusel__tituloSlide">
-                            ¿Cómo participar en un foro?
-                        </h2>
                         <div class="contenedor-video">
                             <div class="video">
                                 <div class="video-iframe" id="participo_en_foro"></div>
@@ -107,9 +96,6 @@
                     </div>
                     <!-- Slide -->
                     <div class="carrusel__slide">
-                        <h2 class="carrusel__tituloSlide">
-                            ¿Cómo resolver una actividad interactiva?
-                        </h2>
                         <div class="contenedor-video">
                             <div class="video">
                                 <div class="video-iframe" id="resolver_una_actividad_interactiva"></div>
@@ -118,9 +104,6 @@
                     </div>
                     <!-- Slide -->
                     <div class="carrusel__slide">
-                        <h2 class="carrusel__tituloSlide">
-                            ¿Cómo resolver un cuestionario?
-                        </h2>
                         <div class="contenedor-video">
                             <div class="video">
                                 <div class="video-iframe" id="resolver_un_cuestionario"></div>
@@ -129,9 +112,6 @@
                     </div>
                     <!-- Slide -->
                     <div class="carrusel__slide">
-                        <h2 class="carrusel__tituloSlide">
-                            ¿Cómo enviar una tarea?
-                        </h2>
                         <div class="contenedor-video">
                             <div class="video">
                                 <div class="video-iframe" id="enviar_una_tarea"></div>
@@ -140,9 +120,6 @@
                     </div>
                     <!-- Slide -->
                     <div class="carrusel__slide">
-                        <h2 class="carrusel__tituloSlide">
-                            ¿Cómo conocer las calificaciones <br> de las actividades?
-                        </h2>
                         <div class="contenedor-video">
                             <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1920px" height="1080px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5ccb03afdb97e30f5d5d432a" type="text/html" allowscriptaccess="always"
                                     allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div>
@@ -169,7 +146,6 @@
             </section>
 
             <section id="tutoriasVirtuales" class="colapsable">
-                <h1 class="contenido__titulo">¿Cómo participar en tutorías virtuales?</h1>
 
                 <div class="contenedor-video">
                     <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1366px" height="768.375px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/605e0d15e44ee30d9ab7169a" type="text/html" allowscriptaccess="always" allowfullscreen="true"

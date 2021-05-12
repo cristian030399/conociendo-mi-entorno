@@ -2,11 +2,11 @@ let carruseles = new Map();
 
 window.onload = function() {
     inicializarColapsable();
-
     inicializarCarrusel();
     agregarEventoFlechas();
 
     closeMenu();
+
 }
 
 // Manejador de pestañas
@@ -17,6 +17,7 @@ function inicializarColapsable() {
 
         boton.addEventListener('click', function() {
             controlarTab(boton);
+            cambiarTitulo(boton);
         });
     }
 
@@ -103,4 +104,14 @@ function moverCarrusel(carruselId, movimiento) {
 
     carruselObj.posicion = carruselposicion;
     carruseles.set(carruselId, carruselObj);
+}
+
+// Titulo
+
+function cambiarTitulo(boton) {
+    let tituloName = boton.dataset.sectionName;
+    console.log(document.getElementById("navbar__titulo"));
+    document.getElementById("navbar__titulo").innerHTML = tituloName;
+    // tituloElement.innerHTML(tituloName);
+    // console.log(tituloName);
 }
