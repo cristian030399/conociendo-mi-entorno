@@ -9,7 +9,7 @@
 body {
     /* background: repeating-linear-gradient(-47.5deg, #f4f5f5 0px, #f4f5f5 7px, #eceef0 7px, #eceef0 11px); */
     /* background: repeating-linear-gradient(-47.5deg, #F7FFF2 0px, #F7FFF2 2px, #ffffff 2px, #ffffff 7px); */
-    background-color: var(--white-color);
+    /* background-color: var(--white-color); */
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
